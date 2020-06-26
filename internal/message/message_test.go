@@ -11,7 +11,7 @@ import (
 var _ = Describe("Tweet", func() {
 	const (
 		ShortTweet = "Be careful with 5G, if Bill Gates wants to control us then we need to assimiliate BSOD in our brains"
-		LongTweet = "Be careful with 5G, if Bill Gates wants to control us then we need to assimiliate BSOD in our brains. So imagine, how we can press \"Enter\" key if we don't have any built-in keyboard... nah, forgetting press \"Enter\" never works, really anyone saw anything when pressed, it was a trap!!!"
+		LongTweet  = "Be careful with 5G, if Bill Gates wants to control us then we need to assimiliate BSOD in our brains. So imagine, how we can press \"Enter\" key if we don't have any built-in keyboard... nah, forgetting press \"Enter\" never works, really anyone saw anything when pressed, it was a trap!!!"
 	)
 
 	var tweet *Tweet
